@@ -1,4 +1,15 @@
-./venv
+venv
 
 # Claude working file
+.claude
 CLAUDE.md
+
+# Terraform artifacts
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
